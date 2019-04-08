@@ -23,6 +23,7 @@ int insertIntoSortedArray(int myArray[], int numEntries, int newValue)
         if ((myArray[i] <= newValue && (myArray[i + 1] >= newValue || myArray[i + 1] == 0)))
         {
           index = i;
+          //added comment.
         }
       }
       for (int k = 0; k < i; k++)
